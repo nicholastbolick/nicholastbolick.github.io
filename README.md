@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>Nick Bolick's Portfolio</title>
-	</head>
+  </head>
   <body>
     <h1>Nicholas T. Bolick</h1>
     <h2>Data Analyst</h2>
     <p>Hi, I'm Nick.</p>
   </body>
-<html>
+</html>
