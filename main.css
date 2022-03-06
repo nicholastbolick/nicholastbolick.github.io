@@ -8,6 +8,11 @@ body {
   background-color: #F2F1EF;
 }
 
+img {
+  width: 90%;
+  height: auto;
+  text-align: left;
+}
 
 /* The sidebar menu */
 .sidenav {
