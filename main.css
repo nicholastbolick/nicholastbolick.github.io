@@ -1,7 +1,7 @@
 html {
   font-family: Helvetica;
-  font-size: 14px;
   color: #413F3D;
+  background-color:
 }
 
 body {
@@ -33,14 +33,10 @@ body {
   display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
 /* Style page content */
 .main {
   margin-left: 250px; /* Same as the width of the sidebar */
+  margin-right: 250px
   padding: 0px 10px;
   background-color: #F2F1EF;
 }
