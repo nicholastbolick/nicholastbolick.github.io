@@ -39,6 +39,9 @@ img {
   display: block;
 }
 
+.under {
+  line-height: 1em;
+}
 /* Style page content */
 .main {
   margin-left: 275px; /* Same as the width of the sidebar */
@@ -48,8 +51,6 @@ img {
   text-indent: 1%;
 }
 
-.main h1 {
-  text-decoration: underline;
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
