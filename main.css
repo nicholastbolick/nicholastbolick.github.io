@@ -39,9 +39,6 @@ img {
   display: block;
 }
 
-.under {
-  line-height: 1em;
-}
 /* Style page content */
 .main {
   margin-left: 275px; /* Same as the width of the sidebar */
