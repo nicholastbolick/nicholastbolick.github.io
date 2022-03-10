@@ -14,55 +14,36 @@ img {
   height: auto;
   text-align: center;
 }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
 
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 275px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #413F3D;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  color: #F2F1EF;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
   text-align: center;
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #F2F1EF;
-  display: block;
+  font-size: 17px;
 }
 
-/* Style page content */
-.main {
-  margin-left: 275px; /* Same as the width of the sidebar */
-  margin-right: 275px
-  padding: 0px 10px;
-  background-color: #F2F1EF;
-  text-indent: 1%;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
 }
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
 .video_wrapper {
 position: relative;
 padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
-}
-iframe{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
 }
