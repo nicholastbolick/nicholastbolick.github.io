@@ -63,9 +63,20 @@ iframe {
 }
 
 .video_wrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.buddon{
+  position: fixed;
+  width: 80px;
+  height: 40px;
+  top: 5px;
+  left: 5px;
+  background-color: #F2F1EF;
+  color: #413F3D;
+  font-size: 25px;
 }
