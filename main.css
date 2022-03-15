@@ -1,61 +1,71 @@
 html {
-  font-family: Helvetica;
-  color: #413F3D;
-  background-color: #697184;
-  
+  font-family: Helvetica;  
 }
 
-div{
-  text-align: center;
+iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: auto;
+	aspect-ratio: 16/9;
+}
+/* The sidebar menu */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  color: #F2F1EF;
+  background-color: #413F3D; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
-iframe{
-  aspect-ratio: 16/9;
-  width: 100%;
+.sidebar img {
+  width: 90%;
   height: auto;
-  display: block;
-}
-
-/* The navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  height: 40px;
-  z-index: 999;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+}
+/* Style page content */
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  color: #413F3D;
+  background-color: #F2F1EF;
 }
 
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
+.page {
+  background-color: #B1A6A4;
 }
 
-/* Main content */
-.main {
-  margin-top: 40px; /* Add a top margin to avoid content overlay */
-    background-color: #F2F1EF;
-  width: 70%;
-  border: 0;
-  margin: auto;
-  padding: 10px;
+.page body{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5%;
+  padding: 15px;
+  color: #413F3D;
+  background-color: #F2F1EF;
+  text-align: center;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
 }
 
 .video_wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
-  width: 100%;
-  height: auto;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
 }

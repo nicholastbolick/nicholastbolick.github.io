@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html>
+
+
 	<head>
 		<title>Nick Bolick's Portfolio</title>
 		<link rel="stylesheet" href="main.css">
 	</head>
-<!-- TopNav -->
-	<div class="navbar">
-		<a href="#home">Home</a>
-		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
+	
+	
+<!-- SideNav -->
+	<div class="sidebar">
+		<img src="nick_shannon.jpg">
+		<h1>Nicholas Bolick</h1>
+		<p>Mathematics Degree | MBA | Excel/Power BI | Python/SQL | Data Analysis | Data Visualization</p>
 	</div>
+	
+	
 <!-- Main Page -->
-	<div class="main">
+	<div class="home">
 	<!--Introduction-->
 		<div id="intro">
 			<h1>Introduction</h1>
 			<p>Hi, I'm Nick.  Thank you for visiting my portfolio page.  It's still a work in progress but please feel free to peruse what I've posted so far.  If the dashboards below don't load properly please reload the page and cross your fingers.</p>
 		</div>
+		
+		
 	<!--Web Scraping Project-->
-		<div id="web_scrape"> 
-			<h2>Disc Golf Analysis: A Webscraping Journey</h2>
-			<p>I chose to make disc golf the focus of this project because it is a subject that I love and there are plenty of sites with few to no scraping restrictions.</p>
-		</div>
+		<table>
+			<tr
+				<th colspan='2'>Disc Golf Pro Tour Analysis</th>
+			</tr>
+			<tr>
+				<td>
+					<a href="web_scrape.html"><img src="web_scrape_thumbnail.jpg" style="width:auto;height:50px;"></a>
+				</td>
+				<td> 
+					<p>A comprehensive project incorporating all essential data analysis tasks</p>
+				</td>
+			</tr>
+		</table>
+		
+		
 	<!--Dashboards-->
-		<div id="boards">
-			<div class="video_wrapper">
-				<iframe title="dg_courses - Page 1" src="https://app.powerbi.com/view?r=eyJrIjoiNGMzNjE3YTYtNmIzZS00NGUyLTg4ZTItNzhhN2VlN2E3N2IyIiwidCI6IjExZmY3YzQ3LTM2MjktNGYzMC1hYTIwLTRmZDFjOWYzMjQzNiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
-			</div>
-			<h2>Video Game Sales Power BI Dashboard</h2>
-			<p>This dashboard displays a variety of sales metrics related to video game sales between 1982 and 2016.  I chose to use this dataset for my first Power BI dashboard because of its good mix of categorical and numerical data that I felt could easily be generalized to sales from a large range of industries.</p>
-			<div class="video_wrapper">
-				<iframe title="video_game_sales" src="https://app.powerbi.com/view?r=eyJrIjoiZjIwYmYzNTktYmY4Ny00NGIwLWFhYmEtYzQ2NjJjYTUwMDQ0IiwidCI6IjExZmY3YzQ3LTM2MjktNGYzMC1hYTIwLTRmZDFjOWYzMjQzNiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
-			</div>
-		</div>
+		
 	</div>
 </html>
