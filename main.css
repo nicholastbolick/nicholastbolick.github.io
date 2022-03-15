@@ -23,7 +23,7 @@ iframe {
   top: 0; /* Stay at the top */
   left: 0;
   color: #F2F1EF;
-  background-color: #413F3D; /* Black */
+  background-color: #413F3D;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -44,7 +44,7 @@ iframe {
 }
 
 .page {
-  background-color: #B1A6A4;
+  background-color: #413F3D;
 }
 
 .page body{
